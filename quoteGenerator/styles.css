@@ -1,0 +1,187 @@
+:root {
+    --bkground: lightcoral;
+    --color: rgb(246, 219, 219);
+    
+}
+
+body {
+    background-color: var(--bkground);
+}
+
+h1 {
+    text-align:center;
+    font-family:monospace;
+    color:var(--color);
+    font-size:1rem;
+}
+
+#my-name {
+    position:relative;
+    right:0px;
+    animation-name: atif;
+    animation-duration:5s;
+}
+
+
+#wrapper {
+    margin-top:250px;
+    
+}
+
+
+#quote-box {
+    background-color: var(--color);
+    width: 50%;
+    min-width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px;
+    padding-bottom:5px;
+    
+}
+
+#text {
+    width:90%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position:relative;
+    top: 20px;
+    font-size: 2em;
+    overflow-wrap: normal;
+    background-color: var(--color);
+    display:block;
+    color: var(--bkground);
+    font-family:monospace;
+    font-weight:bold;
+}
+
+#quo {
+    font-size:2rem;   
+}
+
+
+
+#author {
+    display: block;
+    background-color: var(--color);
+    width:40%;
+    height: auto;
+    text-align:right;
+    position:relative;
+    top:35px;
+    float:right;
+    margin-right:10%;
+    overflow-wrap: normal;
+    color: var(--bkground);
+    font-family:monospace;
+    font-size:.9rem;
+    font-weight:bold;
+    
+}
+
+
+#holder {
+    width:auto;
+    height:auto;
+    margin-right: 10%;
+    margin-left:10%;
+    margin-top:90px;
+    
+}
+
+#new-quote {
+    width:140px;
+    height: 40px;
+    background-color:  var(--bkground);
+    color:var(--color);
+    border:none;
+    float:right;
+    position:relative;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:monospace;
+   
+    
+}
+
+#new-quote:hover {
+    font-size:1.1em;
+}
+
+#tweet-quote {
+    width: 35px;
+    height: auto;
+    color:var(--color);
+    background-color:  var(--bkground);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:1.6rem;
+    border-radius: 5px;
+}
+
+
+#heart {
+    width: 43px;
+    height: 40px;
+    color:var(--color);
+    background-color:  var(--bkground);
+    position:relative;
+    top:1px;
+    border:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:1.6rem;
+    border-radius: 5px;
+}
+
+#heart-group {
+    position:relative;
+    width:20px;
+    height:20px;
+    left:58px;
+    bottom:30px;
+    z-index: 3;
+}
+
+
+#flow {
+    color:red;
+    font-size:1.6rem;
+    position:absolute;
+    top:-1000px;
+    animation-name:heart;
+    animation-duration:5s;
+}
+
+#tweart {
+    display:inline-block;
+}
+
+@keyframes atif {
+    from {right:-500px;}
+    to {right:0px;}
+}
+
+@keyframes heart {
+    from {top:0px} 
+    to {top:-1000px}
+}
+
+
+/*
+@keyframes color-change {
+    10% {--bkground: lightcoral;}
+    25% {--bkground: lightgreen;}
+    50% {--bkground: lightblue;}
+    100% {--bkground: lightyellow;}
+}
+*/
+
+
+
+
