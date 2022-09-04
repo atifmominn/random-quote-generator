@@ -1,2 +1,2 @@
 # random-quote-generator
-quote generator that uses html, css, javascript and the stoicquoteapi xD
+quote generator that uses html, css, javascript and the StoicWisdomAPI xD
